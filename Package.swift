@@ -6,11 +6,9 @@ let package = Package(
     products: [
         .library(
             name: "MapLibre",
-            type: .dynamic,
             targets: ["MapLibreDynamic"]),
         .library(
             name: "MapLibreStatic",
-            type: .static,
             targets: ["MapLibreStatic"])
     ],
     dependencies: [
